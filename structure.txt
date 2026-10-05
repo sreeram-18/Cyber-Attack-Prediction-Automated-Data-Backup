@@ -1,0 +1,33 @@
+Cyber Attack/
+│
+├── collectors/
+│   ├── network_collector.py
+│   ├── system_collector.py
+│   ├── process_collector.py
+│   ├── eventlog_collector.py
+│   └── file_collector.py
+│
+├── processing/
+│   ├── network_flow.py
+│   ├── feature_extractor.py
+│   ├── feature_aggregator.py
+│   └── preprocessing.py
+│
+├── ml/
+│   ├── train.py
+│   ├── predict.py
+│   └── model.pkl
+│
+├── security/
+│   ├── decision_engine.py
+│   └── alert_manager.py
+│
+├── backup/
+│   └── backup_manager.py
+│
+├── storage/
+│   └── mongodb.py
+│
+├── config.py
+│
+└── main.py
